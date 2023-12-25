@@ -18,9 +18,9 @@ interface Props {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className={isHome ? 'nav-link active' : 'nav-link'} aria-current={isHome} href="./index.html">Home</a>
-              <a className={isAbout ? 'nav-link active' : 'nav-link'} aria-current={isAbout} href="./about.html">About</a>
-              <a className={isProjects ? 'nav-link active' : 'nav-link'} aria-current={isProjects} href="./projects.html">Projects</a>
+              <a className={isHome ? 'nav-link active' : 'nav-link'} aria-current={isHome} href="/vite-project/">Home</a>
+              <a className={isAbout ? 'nav-link active' : 'nav-link'} aria-current={isAbout} href="/vite-project/about/">About</a>
+              <a className={isProjects ? 'nav-link active' : 'nav-link'} aria-current={isProjects} href="/vite-project/projects/">Projects</a>
             </div>
           </div>
         </div>
